@@ -1,4 +1,4 @@
-from CTS_NCS import NerveResponse
+from NerveConductionTest import NerveResponse
 
 
 class Diagnosis:
