@@ -21,8 +21,8 @@ def bury_element(element):
     element.disable()
 
 
-def load_image_as_gui(main_App, full_file_path: str = None):
-    picture_element = Picture(main_App, full_file_path)
+def load_image_as_gui(main_app, full_file_path: str = None):
+    picture_element = Picture(main_app, full_file_path)
     return picture_element
 
 

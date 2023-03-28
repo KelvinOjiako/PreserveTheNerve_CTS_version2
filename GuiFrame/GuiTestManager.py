@@ -1,16 +1,17 @@
-from guizero import App, Text, PushButton, Box, Picture
-
-from GuiFrameManager.GuiFrameManager import GuiFrameManager
 import os
+
+from guizero import Box, Picture
+from GuiFrame.GuiFrameManager import GuiFrameManager
 
 
 def image_file_setup():
     full_path = r"C:\Users\kojia\PycharmProjects\PreserveTheNerveNCS\Images"
+    library_computer_path = r"C:\Users\kso170000\PycharmProjects\PreserveTheNerve_CTS\Images"
     image_list = ["luffy_gif_test.gif", "1.GIF", "2.GIF", "1_1.GIF", "3.GIF", "3_1.GIF"]
     perfect_images = []
 
     for i in image_list:
-        perfect_images.append(os.path.join(full_path, i))
+        perfect_images.append(os.path.join(library_computer_path, i))
     return perfect_images
 
 

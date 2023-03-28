@@ -1,7 +1,7 @@
-from GuiFrameManager.GuiMockTests.GuiTestManager import image_file_setup, experimental_main,\
-    move_to_previous_widget, \
-    move_to_next_widget
+
 from guizero import App, PushButton
+from GuiFrame.GuiTestManager import image_file_setup, experimental_main, move_to_next_widget, \
+    move_to_previous_widget
 
 
 def image_experiments():
