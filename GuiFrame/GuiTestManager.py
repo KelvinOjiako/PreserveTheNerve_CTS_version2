@@ -17,10 +17,10 @@ def image_file_setup():
 
 def experimental_main(main_app, image_files):
     # Creates 4 Box container UI Elements that will be rendered on the main_app
-    welcome_container = Box(main_app, width=200, height=350, border=3)
-    testing_container = Box(main_app, width=200, height=350, border=10)
-    results_container = Box(main_app, width=200, height=350, border=15)
-    export_container = Box(main_app, width=300, height=350, border=3)
+    welcome_container = Box(main_app, width=200, height=350, border=1)
+    testing_container = Box(main_app, width=200, height=350, border=1)
+    results_container = Box(main_app, width=200, height=350, border=1)
+    export_container = Box(main_app, width=300, height=350, border=1)
 
     # A text box is then added to all the various Box Containers
     box1text = Picture(welcome_container, image=image_files[0])
